@@ -36,6 +36,10 @@ Supervised learning is the first and most common approach to train AI models. We
 
 If we want to build an AI model, a mathematical function that can predict what picture is a dog or cat, we give it millions of labeled pictures of dogs and cats. It's all labeled, hence why it is called **supervised**. We as humans did the hard work of labeling the data, and hence are supervising the machine to learn from that data.
 
+![image](https://github.com/user-attachments/assets/4c1b4c17-b1f6-4070-b528-689c6b681668)
+
+
+
 ### 2. Unsupervised Learning
 
 Unsupervised learning is when the data only has inputs with no outputs. We are not trying to predict something like whether an email is spam; instead, we are simply discovering patterns in the data. Shopping data is the easiest example to think of. The computer can discover patterns from this massive data and conclude that customers who buy bread often buy milk. This data is not labeled or doesn't have outputs — it is simply buying behavior consisting of information like "this customer bought eggs, this bought oats, this bought milk," and from all that data, it discovers patterns.
@@ -43,6 +47,9 @@ Unsupervised learning is when the data only has inputs with no outputs. We are n
 So supervised learning is: "Here's house size and price, learn to predict prices based on size." Unsupervised is: "Here's shopping data, find interesting patterns."
 
 On Amazon, product recommendations ("customers who bought x also bought y") is an example of an unsupervised ML model. The next time you're on Netflix, you are bombarded with unsupervised ML models telling you "people who watched this series also watched this."
+
+![image](https://github.com/user-attachments/assets/c5538fab-6499-4179-be97-b74a1761fd0e)
+
 
 ### 3. Reinforcement Learning
 
@@ -55,6 +62,9 @@ When we talk about rewards, of course we're not giving the computer a treat. The
 With reinforcement learning, we're not giving the AI a dataset to study upfront. Instead, we're placing it in an environment (real or simulated) where it takes actions, results are observed, and it either gets a reward or penalty.
 
 With AI models like ChatGPT, the model is trained using a supervised model where it is trained on millions of labeled data like books or websites. The model then uses reinforcement learning where it generates multiple possible responses to a given prompt, and these responses are rated based on how helpful or accurate they are either by humans or by another AI system. The model receives these ratings as rewards.
+
+![image](https://github.com/user-attachments/assets/d72c893d-1390-4583-8007-50aa0c6bf6d1)
+
 
 ## Why AI Became Mainstream
 
