@@ -25,6 +25,9 @@ If amount > $500 AND no manager approval THEN reject
 
 With an AI agent, it can review customer's purchase history, considers the reason for return, evaluates the company policy in context, then makes the decision. The agent can recognize workflow completion (refund is processed and customer is notified) and can self-correct (I sent the wrong refund amount, let me issue a correction).
 
+![image](https://github.com/user-attachments/assets/04699a4f-256b-4a74-9986-60e2b550094e)
+
+
 ## Why AI Agents Suddenly Exploded
 
 1. **Decision making capability:** The rise of reasoning models made AI agents capable of making complex decisions.
