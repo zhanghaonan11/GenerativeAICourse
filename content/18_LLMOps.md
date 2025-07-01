@@ -8,6 +8,9 @@ The fundamental difference is that traditional DevOps deals with deterministic c
 
 ## The LLMOps Pipeline: 7 Critical Stages
 
+![image](https://github.com/user-attachments/assets/a5b44cbf-7375-4199-8665-a2dc54d179dd)
+
+
 ### 1. Data Curation: The Foundation of AI Success
 
 This explores what data is available, outlining data transformations to create clean and consistent data. Do you need to enrich the data? Do you need to map the data with external data to enrich it? This is all part of the data curation process.
