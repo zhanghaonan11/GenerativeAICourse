@@ -12,6 +12,9 @@ The reality is simple: you can have the most sophisticated AI model in the world
 
 Data exists everywhere in different formats. Databases, Excel files, PDFs, SharePoint sites, email attachments, legacy systems that haven't been updated in years. This makes it impossible to get a unified view for decision making or to feed AI systems effectively.
 
+![image](https://github.com/user-attachments/assets/085cd53f-7509-4078-af5c-865881845ad3)
+
+
 **Real Example - Global Retailer:** A Fortune 500 retailer wanted to build an AI system for inventory optimization. Their data was spread across:
 - Oracle ERP system (financial data, 20+ years old)
 - SAP warehouse management (inventory levels, updated every 4 hours)
