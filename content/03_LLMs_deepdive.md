@@ -26,6 +26,9 @@ English language dominates the internet, so it performs better than other langua
 
 LLMs are based on the transformer architecture. Before the transformer was invented, there was seq2seq architecture which was used for machine translation. It introduced an encoder-decoder paradigm where an encoder processes input sequences and decoder generates output sequences, both using RNN (recurrent neural networks). The problem with Seq2Seq is that all inputs (tokens) are processed sequentially which is slow, but also all input is compressed into a final state so context can be missed.
 
+![image](https://github.com/user-attachments/assets/18614e4d-573e-47be-9dea-c649dac2444b)
+
+
 ### Transformer Architecture
 
 Transformer architecture removed RNNs. Say you want to summarize a 2k word article. Seq2Seq with RNN must process all of these words sequentially, while the transformer processes it in parallel (but the output is processed sequentially, token by token). Transformers have a two-phase inference process:
@@ -33,6 +36,9 @@ Transformer architecture removed RNNs. Say you want to summarize a 2k word artic
 1. **First Phase:** Processing all input tokens simultaneously. When you ask "explain quantum computing", the transformer processes all the words in parallel by creating a key and value vector for each token (like a lookup table). So "explain" becomes K1, V1 (key vector 1 and value vector v1).
 
 2. **Second Phase:** Generates output tokens or words one at a time (sequential). So it generates "Quantum" looking at your entire question, then generating "Computing" looking at your question + Quantum (first token outputted), then generates "uses" looking at your question + Quantum Computing (first 2 tokens).
+
+3. ![image](https://github.com/user-attachments/assets/9c2aa716-bc26-4634-bf5e-cdc84a2989c8)
+
 
 ### Attention Mechanism
 
@@ -75,6 +81,9 @@ You might think that a language model would just pick the highest probability (l
 So instead of always picking the most likely token, the model picks red 30% of the time, green 50% of the time, etc.
 
 So the right sampling strategy can make a model generate responses more suitable for your application. One might be to generate more creative responses, while others might be to generate more predictable responses.
+
+![image](https://github.com/user-attachments/assets/f1d0915c-d03c-433f-ac30-4ab482515708)
+
 
 ### Temperature Control
 
