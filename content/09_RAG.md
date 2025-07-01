@@ -10,6 +10,9 @@ The question is: how can we leverage the AI model's reasoning capabilities on da
 
 What we do is turn these private documents into smaller chunks (more on that later), use an embedding AI model to turn these chunks into vectors (a series of numbers that capture sentiment and meaning of these chunks), we store these vector chunks in a vector database. Then when the user asks a question about these private documents (such as: "Recommend me products for hiking Mount Everest"), we turn the user question into vectors (again capturing the question's sentiment and meaning), compare that vector with the vectors stored in our vector database, and then finally feed the model both the user question and the returned chunked vector (from the vector comparison).
 
+![image](https://github.com/user-attachments/assets/567589c9-4282-4a86-86d5-d9ea098e909f)
+
+
 **So from first principles: RAG is literally building a function, where when user asks a question, we turn the question into vectors, compare it with vectors in our vector database, then once we find the relevant vectors, we add it to the question with the prompt. It is that simple.**
 
 ## Why Chunking is Necessary
