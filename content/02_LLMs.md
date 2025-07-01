@@ -6,6 +6,9 @@ We're going to get more technical as we move on, but still within the spirit of 
 
 We all used tools like ChatGPT — how do these actually work behind the scenes? A large language model takes a series of text input like "The cat sat on" and literally predicts what the next word is. It predicts that "the" is 70% likely, "a" is 20% likely, "my" is 10% likely, so it picks "the". It becomes "the cat sat on the". Then predicts the next word, which is "mat" as most likely. Each new word is based on all previous words, like a sophisticated auto-complete.
 
+![image](https://github.com/user-attachments/assets/9331a11c-f988-4099-bb76-ecc77fd835c4)
+
+
 So if you ask ChatGPT, "What is the capital of France?", it looks at the series of words "the" "capital" "of" "France" then predicts "is" as logical next word, then "Paris". The model is literally just predicting likely next words based on patterns it learned. It does this well because it is trained on massive amounts of text.
 
 You might say, "OK, I get that when I ask ChatGPT a question, it takes my prompt or question, which is a series of words, and predicts what the next words are. How does it generate text, like write an essay, when I ask it to?"
@@ -39,6 +42,9 @@ Once we find values for these parameters, we're good — we can input any word, 
 ## Tokens
 
 These words that are transformed to numbers are known as **tokens**. Whenever you use LLMs hosted by other companies, you are paying per tokens.
+
+![image](https://github.com/user-attachments/assets/7a7bd7e9-4134-4480-a22c-a71cc3872277)
+
 
 ## Transformer Architecture
 
