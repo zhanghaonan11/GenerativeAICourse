@@ -8,6 +8,9 @@ It is usually used for domain-specific capabilities like coding or medical appli
 
 Although fine-tuning is powerful, it can be expensive and challenging.
 
+![image](https://github.com/user-attachments/assets/a5c5a9e8-820c-4173-9bec-eedb36987f8f)
+
+
 ## Why Fine-Tuning Works
 
 In practice, most people usually fine-tune smaller models because they require less memory. A small model, fine-tuned on a specific task, might outperform a much larger out-of-the-box model on that task.
