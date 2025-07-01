@@ -10,6 +10,9 @@ Web frontends like LinkedIn don't talk directly to the database — they talk to
 
 MCP is a communication protocol that standardizes how your AI applications interact with external tools and data sources. Just as web applications evolved from directly querying databases to using API layers for better scalability and maintainability, AI agents need the same architectural decoupling.
 
+![image](https://github.com/user-attachments/assets/79418695-3d5c-4082-ad40-0eda2ea8013a)
+
+
 ## The Before and After
 
 ### Before MCP: Tightly Coupled Nightmare
