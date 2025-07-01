@@ -96,13 +96,14 @@ sudo apt install git
 ### Step 5: Create Your Environment File
 
 1. In VS Code, you should see your project files in the left sidebar
-2. Right-click in the file explorer area and select "New File"
-3. Name the file exactly: `.env` (including the dot at the beginning)
-4. Open the `.env` file and add this line:
+2. **Navigate to the `content` folder** - click on the `content` folder to open it
+3. Right-click inside the `content` folder and select "New File"
+4. Name the file exactly: `.env` (including the dot at the beginning)
+5. Open the `.env` file and add this line:
    ```
    OPENAI_API_KEY=your_openai_key_will_go_here
    ```
-5. Save the file (`Ctrl+S` on Windows/Linux, `Cmd+S` on Mac)
+6. Save the file (`Ctrl+S` on Windows/Linux, `Cmd+S` on Mac)
 
 ### Step 6: Get Your OpenAI API Key
 
@@ -163,7 +164,7 @@ OPENAI_API_KEY=sk-proj-abc123...your_actual_key_here
 - Verify your OpenAI account has billing set up
 
 **Need help?**
-- Check that your `.env` file is in the same folder as the notebook files
+- Check that your `.env` file is in the `content` folder (same folder as the notebook files)
 - Make sure you've saved the `.env` file after adding your API key
 - Restart VS Code if things aren't working
 
