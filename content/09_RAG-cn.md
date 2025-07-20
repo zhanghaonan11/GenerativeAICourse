@@ -17,7 +17,6 @@ What we do is turn these private documents into smaller chunks (more on that lat
 我们所做的是将这些私有文档转换成更小的块（稍后会详细介绍），使用嵌入式 AI 模型将这些块转换成向量（捕获这些块的情感和意义的一系列数字），我们将这些向量块存储在向量数据库中。然后，当用户询问有关这些私有文档的问题时（例如：“为我推荐用于攀登珠穆朗玛峰的产品”），我们将用户问题转换成向量（再次捕获问题的情感和意义），将该向量与我们向量数据库中存储的向量进行比较，最后将用户问题和返回的分块向量（来自向量比较）都提供给模型。
 
 ![image](https://github.com/user-attachments/assets/567589c9-4282-4a86-86d5-d9ea098e909f)
-![图片](https://github.com/user-attachments/assets/567589c9-4282-4a86-86d5-d9ea098e909f)
 
 
 **So from first principles: RAG is literally building a function, where when user asks a question, we turn the question into vectors, compare it with vectors in our vector database, then once we find the relevant vectors, we add it to the question with the prompt. It is that simple.**
